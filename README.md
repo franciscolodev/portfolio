@@ -4,7 +4,7 @@ Este es mi portfolio creado con HTML, CSS y JavaScript utilizando la metodologí
 ## Autor🖊️
 **Francisco López**
 
- *[Linkedin] (https://www.linkedin.com/in/franciscojlopezu/)
+ - [Linkedin] (https://www.linkedin.com/in/franciscojlopezu/)
 
 ## Ver ejemplo en vivo
  - [ENLACEGITHUBPAGES] (https://github.com/franciscojlopezudev)
