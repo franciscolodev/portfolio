@@ -7,7 +7,7 @@ Este es mi portfolio creado con HTML, CSS y JavaScript utilizando la metodologí
  - [Linkedin] (https://www.linkedin.com/in/franciscojlopezu/)
 
 ## Ver ejemplo en vivo
- - [ENLACEGITHUBPAGES] (https://github.com/franciscojlopezudev)
+ - [https://franciscojlopezudev.github.io/portfolio/] (https://franciscojlopezudev.github.io/portfolio/)
 
 ## Instalación
 Este proyecto no necesita de instalación. Simplemente abre la carpeta  o haz doble click en el .html
