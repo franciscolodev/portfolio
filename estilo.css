@@ -295,7 +295,7 @@ html{
 }
 @keyframes canvas {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 
@@ -306,7 +306,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .trabajo{
@@ -315,7 +315,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .creatividad{
@@ -333,7 +333,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 95%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
