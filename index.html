@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/logotipo.png">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">franciscolodev</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfilnegro.png" alt="">
+            </div>
+            <h1>Francisco López</h1>
+            <h2>Desarrollador Front-End</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=61553805997829" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/franciscolodev" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/franciscolodev/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- <a href="#"><i class="fa-solid fa-rss"></i></a>  -->    
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><font color="white">Mi nombre es</font><span style="font-size: 30px;"> Francisco López</span> <font color="white">y tengo</font> 28 años.</p> 
+            <p>Soy <font color="#1CB698">Desarrollador Front-end</font>, en camino a Full Stack. Disfruto poder crear y materializar ideas utilizando <font color="#1CB698">HTML, CSS, JavaScript, React</font> y otras herramientas y frameworks. Me considero una persona responsable, detallista y de aprendizaje ágil con capacidad de resolución para llevar a cabo lo que el cliente requiera, desde un punto funcional y estético</p>
+            <p>Entrego proyectos para pequeñas y medianas empresas. Busco oportunidades para adquirir más experiencia en esta área para mi crecimiento intelectual y para poder desarrollar mis conocimientos técnicos.</p>
+            <p>Trabajo muy bien en equipo, cooperando y apoyando de la mejor manera posible para resolver el objetivo, y cualquier problema que pueda surgir, con gran satisfacción en aprender y transmitir ese conocimiento. Ya que considero que aprender es parte de mi día a día y los desafíos me ayudan a formarme mejor.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15/02/1996
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            franciscolodev@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            franciscolodev.github.io/portfolio/
+                        </li>
+                        <li>
+                            <strong>Localidad</strong>
+                            Río Cuarto, Córdoba, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                    
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+            <a href="https://cvapp.es/r/XzYXOyjTN" target="_blank">Descargar CV</a>  <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachillerato en Cs. Económicas y Gestión de las Empresas</h4>
+                        <span class="casa">Inst. San Juan de la Cruz</span>
+                        <span class="fecha">2008 - 2014</span>
+                        <p>Economía, Administración de Empresas y Sistema de Información Contable</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programación Web</h4>
+                        <span class="casa">Alura LATAM</span>
+                        <span class="fecha">2022-2023</span>
+                        <p>Realice cursos en Lógica de programación, FlexBox, Layouts Responsivos, GitHub, HTTP, HTML/HTML5, Arquitectura CSS/CSS3 y el lenguaje JavaScript</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Lean Startup, Business Model y Desarrollo Personal</h4>
+                        <span class="casa">Alura LATAM</span>
+                        <span class="fecha">2023</span>
+                        <p>Realice cursos con Alura en el Programa "ONE-Oracle Next Education"</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>  
+                    <div class="item der">
+                        <h4>Manejo de Web y Redes</h4>
+                        <span class="casa">Fang-Shop</span>
+                        <span class="fecha">2016-2017</span>
+                        <p>Diseño y creación de Redes Sociales, atención al cliente y manejo de Página Web</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Desarrollo Web</h4>
+                        <span class="casa">Peluqueria Alura</span>
+                        <span class="fecha">2023</span>
+                        <p>Práctica de Desarrollo Web sobre una Peluquería utilizando HTML5, CSS3 y JavaScript</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Verduleria Fruta-E-Fruto</span>
+                        <span class="fecha">2023</span>
+                        <p>Desarrollo de Página Web para una tienda online de frutas y verduras, con distintas interfaces trabajando el diseño, la estética y el contacto con usuarios</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/unagi.png" alt="">
+                    <div class="overlay">
+                        <h3>UNAGI-Shop</h3>
+                        <p>HTML - CSS - JavaScript</p>
+                        <a href="https://franciscolodev.github.io/UNAGI/" target="_blank">Click</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p11.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Fruta-e-Fruto</h3>
+                        <p>HTML5 - CSS3</p>
+                        <a href="https://franciscolodev.github.io/Fruta-e-Fruto/" target="_blank">Click</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/barberia.png" alt="">
+                    <div class="overlay">
+                        <h3>Barbería</h3>
+                        <p>Práctica con HTML y CSS</p>
+                        <a href="https://franciscolodev.github.io/Barbershop/" target="_blank">Click</a>
+                    </div>
+                </div>
+            </div>
+            </div>      
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        <a href="mailto:franciscolodev@gmail.com">Enviar Mensaje</a>
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Río Cuarto, Córdoba, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: franciscolodev@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=61553805997829" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/franciscolodev" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/franciscolodev/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <!-- <a href="#"><i class="fa-solid fa-rss"></i></a> --> 
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
