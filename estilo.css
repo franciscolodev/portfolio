@@ -277,7 +277,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .htmlcss{
@@ -286,7 +286,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .canvas{
@@ -295,7 +295,7 @@ html{
 }
 @keyframes canvas {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 75%;}
 }
 
 
