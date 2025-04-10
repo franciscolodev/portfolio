@@ -2,7 +2,7 @@
 Este fue mi primer portfolio. Lo cree utilizando HTML, CSS y algo de JavaScript.
 
 ## Autor🖊️
-**Francisco López**
+**@franciscolodev**
 
  - [Linkedin] (https://www.linkedin.com/in/franciscolodev/)
 
